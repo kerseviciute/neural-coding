@@ -1,0 +1,13 @@
+name: jupyter-python
+channels:
+  - conda-forge
+dependencies:
+  - python 3.12.3
+  - jupyter 1.0.0
+  - matplotlib 3.8.4
+  - numpy 1.26.4
+  - scipy 1.13.0
+  - pip 24.0
+  - pip:
+      - notebook-as-pdf==0.5.0
+      - PyPDF2<3.0
